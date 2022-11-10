@@ -29,6 +29,19 @@ header {
     background-color: rgb(0 0 0 / 0.7);
 }
 
+.hero-banner i {
+    position: absolute;
+    bottom: 50px;
+    font-size: 32px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
 .banner-inner {
     text-align: center;
     z-index: 1;
