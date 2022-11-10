@@ -1,1 +1,12 @@
 @import "reset.css";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f5b62f;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
