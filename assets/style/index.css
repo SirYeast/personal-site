@@ -5,6 +5,10 @@ body {
     color: #fff;
 }
 
+main > * {
+    margin-bottom: 20px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -64,10 +68,6 @@ header {
 
 section {
     padding: 0 10px;
-}
-
-section+section {
-    margin-top: 20px;
 }
 
 section .container {
