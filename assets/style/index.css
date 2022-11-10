@@ -106,3 +106,23 @@ section .content {
 section p:not(:last-child) {
     margin-bottom: 10px;
 }
+
+.links {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 50px;
+    border: 2px solid #0a81a5;
+    border-radius: 10px;
+}
+
+.links a i {
+    font-size: 20px;
+}
